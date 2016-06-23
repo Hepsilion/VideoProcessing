@@ -1,39 +1,43 @@
-﻿Build started 2016/6/22 19:57:53.
+﻿Build started 2016/6/23 17:06:52.
      1>Project "E:\Workspace\C++\Opencv2.4.10\VideoProcessing\VideoProcessing\VideoProcessing.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\VideoProcessing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\VideoProcessing.unsuccessfulbuild".
        ClCompile:
          D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Segment.cpp
          Segment.cpp
      1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(146): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(148): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(213): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(247): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(250): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(281): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(284): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(286): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
-                 e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(284) : definition of 'i' ignored
-                 e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(281) : definition of 'i' used
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(303): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(502): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(502): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(504): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(540): warning C4244: '+=' : conversion from 'double' to '__int64', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(553): warning C4244: '+=' : conversion from 'double' to '__int64', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(683): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(684): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(705): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(706): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(708): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(709): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(710): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(711): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(800): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(803): warning C4018: '<' : signed/unsigned mismatch
-     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(235): warning C4715: 'decide' : not all control paths return a value
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(212): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(249): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(283): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(285): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(283) : definition of 'i' ignored
+                 e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(280) : definition of 'i' used
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(302): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(324): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(326): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(328): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(330): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(346): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(449): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(449): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(451): warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(487): warning C4244: '+=' : conversion from 'double' to '__int64', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(500): warning C4244: '+=' : conversion from 'double' to '__int64', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(631): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(632): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(653): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(654): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(656): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(657): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(658): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(659): warning C4244: '=' : conversion from 'float' to 'uchar', possible loss of data
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(748): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(751): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspace\c++\opencv2.4.10\videoprocessing\videoprocessing\segment.cpp(234): warning C4715: 'decide' : not all control paths return a value
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -52,4 +56,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.42
+Time Elapsed 00:00:02.08
