@@ -60,8 +60,8 @@ int main( int argc, char** argv ){
 	string adiDir="..\\Datasets\\ImmediateResults\\ADI";
 	string ddiDir="..\\Datasets\\ImmediateResults\\DDI";
 /*****************************cut all videos into frames**********************************************/
-	//string destPath="..\\Datasets\\Frames";
-	//getAllFrame(path, destPath);
+	string destPath="..\\Datasets\\Frames";
+	getAllFrame(path, destPath);
 /*****************************************************************************************************/
 	
 	vector<vector<double>> train_features, test_features;
@@ -765,7 +765,7 @@ void videoCutFrame(string filepath, string filename, string destDir){
 	int frameNo=0;
 	IplImage *image=NULL;
 	while(1){
-		image=cvQueryFrame(capture);cout<<"Step: "<<image->widthStep<<endl;
+		image=cvQueryFrame(capture);
 		if(image!=NULL){
 			frameNo++;
 			stringstream path;
